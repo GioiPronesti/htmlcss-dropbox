@@ -55,6 +55,12 @@ img {
 .row {
     display: flex;
     flex-wrap:wrap;
+    row-gap: 50px;
+}
+
+.row > * {
+    padding: 0px 25px;
+
 }
 
 .col-100 {
@@ -104,6 +110,35 @@ img {
 
 .hero {
     background-color:var(--light-blue);
+    padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.hero__title {
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.hero__icon {
+  font-size: 50px;  
+  margin: auto 0;
+  
+}
+
+.hero__description {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+
+/*Components*/
+
+.hero__btn {
+    display: inline-block;
+    background-color: #0061FF;
+
 }
 
 /*Debug Rules*/ 
