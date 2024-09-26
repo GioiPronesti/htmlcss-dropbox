@@ -48,7 +48,7 @@ img {
 }
 
 .container-small {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -56,6 +56,20 @@ img {
     display: flex;
     flex-wrap:wrap;
 }
+
+.col-100 {
+    width: 100%;
+}
+
+.col-33 {
+    width: 33.33%;
+}
+
+.col-66 {
+    width: 66.66%;
+}
+
+
 /*---- HEADER ----*/ 
 
 .main-header {
@@ -86,5 +100,25 @@ img {
     padding: 10px 15px;
 }
 
+/*HERO*/
+
+.hero {
+    background-color:var(--light-blue);
+}
+
 /*Debug Rules*/ 
 
+.debug .container {
+    border: 1px solid violet;
+    padding: 20px;
+}
+
+.debug .row {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.debug .row > * {
+    border: 2px solid blue;
+    padding: 20px;
+}
