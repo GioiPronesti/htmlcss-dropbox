@@ -135,7 +135,9 @@ img {
 /*Plans*/
 
 .plans .card {
-    padding: 20px;
+    border: 1px solid;
+    padding: 10px;
+    min-height: 300px;
 }
 
 
