@@ -132,6 +132,12 @@ img {
     
 }
 
+/*Plans*/
+
+.plans .card {
+    padding: 20px;
+}
+
 
 /*Components*/
 
@@ -143,10 +149,13 @@ img {
 
 /*Debug Rules*/ 
 
-.debug .container {
+.debug .container , 
+.debug.container-small 
+{
     border: 1px solid violet;
     padding: 20px;
 }
+
 
 .debug .row {
     border: 2px solid red;
